@@ -2,6 +2,7 @@ function ModelList(props) {
 
     return (
         <> 
+        <div className="shadow p-4 mt-4">
         <h1>Model List</h1>
     <table className="table table-striped">
         <thead>
@@ -23,6 +24,7 @@ function ModelList(props) {
         }):null}
         </tbody>
     </table>
+    </div>
         </> 
     );
 };

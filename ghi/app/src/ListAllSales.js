@@ -20,6 +20,7 @@ class SalesList extends React.Component {
     render() {
         return (
             <>
+            <div className="shadow p-4 mt-4">
                 <h1>List of All Sales</h1>
                 <table className="table table-striped">
                     <thead>
@@ -46,6 +47,7 @@ class SalesList extends React.Component {
                         }):null}
                     </tbody>
                 </table>
+                </div>
             </>
         )
     }

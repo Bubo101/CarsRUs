@@ -68,6 +68,7 @@ render() {
     return (
     
     <> 
+    <div className="shadow p-4 mt-4">
     <table className="table table-striped">
     <thead>
         <tr>
@@ -101,6 +102,7 @@ render() {
         })}
     </tbody>
     </table>
+    </div>
     </> 
     )
 }

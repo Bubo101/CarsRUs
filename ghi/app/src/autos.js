@@ -2,7 +2,8 @@ function AutoList(props) {
     console.log(props)
 
     return (
-        <> 
+        <>
+        <div className="shadow p-4 mt-4">
         <h1>Automobile Inventory</h1>
     <table className="table table-striped">
         <thead>
@@ -28,6 +29,7 @@ function AutoList(props) {
         }):null}
         </tbody>
     </table>
+    </div>
         </> 
     );
 };

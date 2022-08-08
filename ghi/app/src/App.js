@@ -16,13 +16,15 @@ import NewSalesRepForm from './NewSalesRepForm';
 import CreateSalesRecord from './CreateSalesRecord';
 import SalesList from './ListAllSales';
 import SalesByRep from './SalesRepHistory';
+import NavbarDarkExample from './nav2';
 
 
 function App(props) {
 
   return (
     <BrowserRouter>
-      <Nav />
+      {/* <Nav /> */}
+      <NavbarDarkExample />
       <div className="container">
         <Routes>
           <Route path="/" element={<MainPage />} />

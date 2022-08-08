@@ -2,6 +2,7 @@ function ManuList(props) {
 
     return (
         <> 
+        <div className="shadow p-4 mt-4">
     <table className="table table-striped">
         <thead>
         <tr>
@@ -18,6 +19,7 @@ function ManuList(props) {
         }):null}
         </tbody>
     </table>
+    </div>
         </> 
     );
 };

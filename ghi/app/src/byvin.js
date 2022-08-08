@@ -55,6 +55,7 @@ class VinList extends React.Component {
 
         return (
             <>
+            <div className="shadow p-4 mt-4">
             <h1 className="mb-4 mt-4">Search by vin</h1>
             <form onSubmit={this.handleSubmit}>
                 <div className="form-floating mb-3">
@@ -93,6 +94,7 @@ class VinList extends React.Component {
                     })}
                 </tbody>
             </table>
+            </div>
             </>
         )
 }
